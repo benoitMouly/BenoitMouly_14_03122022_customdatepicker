@@ -1,0 +1,23 @@
+{
+  "name": "datepicker-benoitmouly",
+  "version": "1.0.9",
+  "description": "Custom datepicker made for React, using css and js",
+  "main": "lib/DatePicker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir lib"
+  },
+  "author": "Benoît Mouly",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.22.15",
+    "@babel/core": "^7.22.15",
+    "@babel/preset-env": "^7.22.15",
+    "@babel/preset-react": "^7.22.15"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

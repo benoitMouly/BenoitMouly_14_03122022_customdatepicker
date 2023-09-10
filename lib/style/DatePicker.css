@@ -1,0 +1,45 @@
+/* DatePicker Style */
+
+#datepicker {
+  border: 2px solid green;
+  padding: 1rem;
+  margin-top: 1rem;
+  position: absolute;
+  z-index: 2;
+  background-color: white;
+}
+
+.first-row {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1rem;
+  margin-top: 1rem;
+}
+
+.second-row {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.choosingDay {
+  width: 100%;
+  background: none;
+  border: 2px solid green;
+  height: 30px;
+  font-weight: bolder;
+  color: green;
+  border-radius: 2px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.selectedDay {
+  background-color: green;
+  color: #fff;
+}
+
+
+.custom-date-picker-label{
+  margin-right: 1rem;
+}
