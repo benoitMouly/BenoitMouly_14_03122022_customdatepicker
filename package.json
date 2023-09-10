@@ -1,8 +1,13 @@
 {
   "name": "datepicker-benoitmouly",
-  "version": "1.0.9",
+  "version": "1.0.11",
   "description": "Custom datepicker made for React, using css and js",
   "main": "lib/DatePicker.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benoitMouly/BenoitMouly_14_03122022_customdatepicker"
+  },
+  "keywords": ["react", "datepicker", "javascript", "library", "customizable"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src --out-dir lib"

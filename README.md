@@ -10,8 +10,6 @@ In the project directory, you can run:
 
 It installs needed depedencies
 
-### `npm start`
-
 ## Usage
 
 ```react
